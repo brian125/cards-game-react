@@ -1,0 +1,53 @@
+.fondo-juego {
+    width: 100%;
+    background: -webkit-linear-gradient(black, gray);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fondo-juego > .jugador1 {
+    width: 49%;
+    border-right: 19.2px solid white;
+}
+
+.fondo-juego > .jugador2 {
+    width: 50%;
+}
+
+.jugador1, .jugador2 {
+    justify-content: space-around;
+}
+
+.card-size {
+    padding-left: 150px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.player-name {
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: 20px 0px;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.draw-cards {
+    position: absolute;
+    width: 150px;
+    left: 45.5%;
+    height: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    background-color: orange;
+    color: white;
+    top: 20px;
+}
+
+.draw-cards:hover {
+    box-shadow: inset 0px 0px 10px red;
+}
